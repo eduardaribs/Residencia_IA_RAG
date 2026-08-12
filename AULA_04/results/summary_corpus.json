@@ -1,0 +1,360 @@
+{
+  "embedding_model": "nvidia/llama-nemotron-embed-vl-1b-v2:free",
+  "embedding_dimension": 2048,
+  "total_documents": 12,
+  "strategies": [
+    "recursive",
+    "paragraph",
+    "markdown"
+  ],
+  "documents": [
+    {
+      "document": "attention_is_all_you_need.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 15,
+          "avg_chunk_size": 784.93,
+          "min_chunk_size": 242,
+          "max_chunk_size": 997,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 44,
+          "avg_chunk_size": 258.45,
+          "min_chunk_size": 11,
+          "max_chunk_size": 1138,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 11,
+          "avg_chunk_size": 1018.27,
+          "min_chunk_size": 173,
+          "max_chunk_size": 2134,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "bert_pretraining.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 52,
+          "avg_chunk_size": 738.77,
+          "min_chunk_size": 88,
+          "max_chunk_size": 992,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 109,
+          "avg_chunk_size": 345.83,
+          "min_chunk_size": 1,
+          "max_chunk_size": 3471,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 18,
+          "avg_chunk_size": 2080.28,
+          "min_chunk_size": 69,
+          "max_chunk_size": 6980,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "bioetica_e_ia.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 65,
+          "avg_chunk_size": 695.02,
+          "min_chunk_size": 102,
+          "max_chunk_size": 999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 112,
+          "avg_chunk_size": 393.97,
+          "min_chunk_size": 3,
+          "max_chunk_size": 1358,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 19,
+          "avg_chunk_size": 2283.53,
+          "min_chunk_size": 20,
+          "max_chunk_size": 6946,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "escrita_academica_ia.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 50,
+          "avg_chunk_size": 720.8,
+          "min_chunk_size": 118,
+          "max_chunk_size": 999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 89,
+          "avg_chunk_size": 399.31,
+          "min_chunk_size": 6,
+          "max_chunk_size": 2674,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 14,
+          "avg_chunk_size": 2500.43,
+          "min_chunk_size": 39,
+          "max_chunk_size": 6119,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "gpt3_language_models.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 412,
+          "avg_chunk_size": 715.62,
+          "min_chunk_size": 3,
+          "max_chunk_size": 1000,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 599,
+          "avg_chunk_size": 475.27,
+          "min_chunk_size": 1,
+          "max_chunk_size": 5999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 10
+        },
+        "markdown": {
+          "num_chunks": 88,
+          "avg_chunk_size": 3264.43,
+          "min_chunk_size": 86,
+          "max_chunk_size": 5999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 49
+        }
+      }
+    },
+    {
+      "document": "gpt4_technical_report.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 386,
+          "avg_chunk_size": 750.08,
+          "min_chunk_size": 3,
+          "max_chunk_size": 1000,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 1039,
+          "avg_chunk_size": 268.97,
+          "min_chunk_size": 1,
+          "max_chunk_size": 6937,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 211,
+          "avg_chunk_size": 1314.18,
+          "min_chunk_size": 11,
+          "max_chunk_size": 5999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 24
+        }
+      }
+    },
+    {
+      "document": "instruct_gpt.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 272,
+          "avg_chunk_size": 768.18,
+          "min_chunk_size": 17,
+          "max_chunk_size": 1000,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 632,
+          "avg_chunk_size": 320.79,
+          "min_chunk_size": 3,
+          "max_chunk_size": 6973,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 116,
+          "avg_chunk_size": 1727.36,
+          "min_chunk_size": 23,
+          "max_chunk_size": 18211,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "llama_foundation_models.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 137,
+          "avg_chunk_size": 756.42,
+          "min_chunk_size": 79,
+          "max_chunk_size": 1000,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 285,
+          "avg_chunk_size": 351.92,
+          "min_chunk_size": 7,
+          "max_chunk_size": 10065,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 54,
+          "avg_chunk_size": 1831.96,
+          "min_chunk_size": 68,
+          "max_chunk_size": 21325,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "lora_low_rank_adaptation.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 135,
+          "avg_chunk_size": 731.29,
+          "min_chunk_size": 86,
+          "max_chunk_size": 999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 227,
+          "avg_chunk_size": 423.88,
+          "min_chunk_size": 1,
+          "max_chunk_size": 3609,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 38,
+          "avg_chunk_size": 2510.71,
+          "min_chunk_size": 87,
+          "max_chunk_size": 13466,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "retrieval_augmented_generation.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 105,
+          "avg_chunk_size": 692.38,
+          "min_chunk_size": 17,
+          "max_chunk_size": 999,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 134,
+          "avg_chunk_size": 531.25,
+          "min_chunk_size": 11,
+          "max_chunk_size": 4047,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 33,
+          "avg_chunk_size": 2135.24,
+          "min_chunk_size": 100,
+          "max_chunk_size": 23229,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "scaling_laws_llm.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 127,
+          "avg_chunk_size": 776.04,
+          "min_chunk_size": 17,
+          "max_chunk_size": 1000,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 366,
+          "avg_chunk_size": 259.25,
+          "min_chunk_size": 3,
+          "max_chunk_size": 7691,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 49,
+          "avg_chunk_size": 1918.53,
+          "min_chunk_size": 64,
+          "max_chunk_size": 14998,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    },
+    {
+      "document": "twitter_algoritmo.md",
+      "strategies": {
+        "recursive": {
+          "num_chunks": 52,
+          "avg_chunk_size": 703.46,
+          "min_chunk_size": 98,
+          "max_chunk_size": 997,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "paragraph": {
+          "num_chunks": 86,
+          "avg_chunk_size": 413.62,
+          "min_chunk_size": 1,
+          "max_chunk_size": 1386,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        },
+        "markdown": {
+          "num_chunks": 11,
+          "avg_chunk_size": 3205.36,
+          "min_chunk_size": 73,
+          "max_chunk_size": 9788,
+          "embedding_dimension": 2048,
+          "subdivided_chunks": 0
+        }
+      }
+    }
+  ]
+}

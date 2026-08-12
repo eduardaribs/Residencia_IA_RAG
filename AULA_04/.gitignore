@@ -1,0 +1,10 @@
+# Embeddings gerados
+**/chunks_embeddings.json
+**/*chunking_embeddings.json
+
+# Cache do Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Variáveis de ambiente
+.env
